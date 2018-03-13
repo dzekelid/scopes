@@ -35,7 +35,7 @@ apis:
   tags: Scopes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/scopes/master/_listings/sendgrid/scopes-requests-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/scopes/master/_listings/sendgrid/scopes-requests-request-id-delete.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
