@@ -1,11 +1,15 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Get Scopes
+  description: "**This endpoint returns a list of all scopes that this user has access
+    to.**\n\nAPI Keys can be used to authenticate the use of [SendGrid\u2019s v3 Web
+    API](https://sendgrid.com/docs/API_Reference/Web_API_v3/index.html), or the [Mail
+    API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html). API
+    Keys may be assigned certain permissions, or scopes, that limit which API endpoints
+    they are able to access. For a more detailed explanation of how you can use API
+    Key permissios, please visit our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/api_keys.html#-API-Key-Permissions)
+    or [Classroom](https://sendgrid.com/docs/Classroom/Basics/API/api_key_permissions.html)."
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
