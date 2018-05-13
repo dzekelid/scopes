@@ -36,7 +36,79 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/scopes/master/_listings/sendgrid/scopes-requests-request-id-approve-patch.md
+- name: SendGrid Get Scopes
+  description: "**This endpoint returns a list of all scopes that this user has access
+    to.**\n\nAPI Keys can be used to authenticate the use of [SendGrid\u2019s v3 Web
+    API](https://sendgrid.com/docs/API_Reference/Web_API_v3/index.html), or the [Mail
+    API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html). API
+    Keys may be assigned certain permissions, or scopes, that limit which API endpoints
+    they are able to access. For a more detailed explanation of how you can use API
+    Key permissios, please visit our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/api_keys.html#-API-Key-Permissions)
+    or [Classroom](https://sendgrid.com/docs/Classroom/Basics/API/api_key_permissions.html)."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
+  humanURL: https://sendgrid.com/
+  baseURL: https://api.sendgrid.com//v3
+  tags: Scopes
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/scopes/master/_listings/sendgrid/scopes-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/scopes/master/_listings/sendgrid/scopes-get-postman.md
 x-common:
+- type: x-net-library
+  url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-base
+  url: https://api.sendgrid.com
+- type: x-blog
+  url: http://blog.sendgrid.com/
+- type: x-blog-rss
+  url: http://feeds.feedburner.com/sendgrid/CDXr
+- type: x-contact-form
+  url: https://sendgrid.com/contact
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/sendgrid
+- type: x-developer
+  url: https://sendgrid.com/developers
+- type: x-documentation
+  url: https://sendgrid.com/docs/index.html
+- type: x-forum
+  url: http://support.sendgrid.com/forums
+- type: x-github
+  url: https://github.com/sendgrid
+- type: x-go-library
+  url: https://sendgrid.com/docs/Code_Examples/go.html
+- type: x-ios-library
+  url: https://sendgrid.com/docs/Code_Examples/ios.html
+- type: x-java-library
+  url: https://sendgrid.com/docs/Code_Examples/java.html
+- type: x-labs
+  url: http://labs.sendgrid.com/
+- type: x-nodejs-library
+  url: https://sendgrid.com/docs/Code_Examples/nodejs.html
+- type: x-partners
+  url: https://sendgrid.com/partners
+- type: x-perl-library
+  url: https://sendgrid.com/docs/Code_Examples/perl.html
+- type: x-php-library
+  url: https://sendgrid.com/docs/Code_Examples/php.html
+- type: x-pricing
+  url: https://sendgrid.com/transactional-email/pricing
+- type: x-privacy
+  url: https://sendgrid.com/privacy
+- type: x-python-library
+  url: https://sendgrid.com/docs/Code_Examples/python.html
+- type: x-ruby-library
+  url: https://sendgrid.com/docs/Code_Examples/ruby.html
+- type: x-security
+  url: https://sendgrid.com/security
+- type: x-selfservice-registration
+  url: https://sendgrid.com/user/signup
+- type: x-terms-of-service
+  url: https://sendgrid.com/tos
+- type: x-twitter
+  url: https://twitter.com/SendGrid
+- type: x-website
+  url: https://sendgrid.com/
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
 - type: x-base
