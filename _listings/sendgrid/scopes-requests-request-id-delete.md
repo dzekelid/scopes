@@ -1,11 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Delete Scopes Requests Request
+  description: |-
+    This endpoint allows you to deny an attempt to access your account.
+
+    **Note:** Only teammate admins may delete a teammate's access request.
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
