@@ -36,24 +36,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/scopes/master/_listings/sendgrid/scopes-requests-request-id-approve-patch.md
-- name: SendGrid Get Scopes
-  description: "**This endpoint returns a list of all scopes that this user has access
-    to.**\n\nAPI Keys can be used to authenticate the use of [SendGrid\u2019s v3 Web
-    API](https://sendgrid.com/docs/API_Reference/Web_API_v3/index.html), or the [Mail
-    API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html). API
-    Keys may be assigned certain permissions, or scopes, that limit which API endpoints
-    they are able to access. For a more detailed explanation of how you can use API
-    Key permissios, please visit our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/api_keys.html#-API-Key-Permissions)
-    or [Classroom](https://sendgrid.com/docs/Classroom/Basics/API/api_key_permissions.html)."
+- name: SendGrid Get Scopes Requests
+  description: |-
+    This endpoint allows you to retrieve a list of all recent access requests.
+
+    **Note:** The Response Header's 'link' parameter will include pagination info. For example:
+
+    link: ```<https://api.sendgrid.com/v3/scopes/requests?limit=10&offset=0>; rel="first"; title="1", <https://api.sendgrid.com/v3/scopes/requests?limit=10&offset=10>; rel="last"; title="2", <https://api.sendgrid.com/v3/scopes/requests?limit=10&offset=0>; rel="prev"; title="1"```
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Scopes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/scopes/master/_listings/sendgrid/scopes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/scopes/master/_listings/sendgrid/scopes-requests-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/scopes/master/_listings/sendgrid/scopes-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/scopes/master/_listings/sendgrid/scopes-requests-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
