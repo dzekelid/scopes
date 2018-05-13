@@ -36,20 +36,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/scopes/master/_listings/sendgrid/scopes-requests-request-id-approve-patch.md
-- name: SendGrid Delete Scopes Requests Request
-  description: |-
-    This endpoint allows you to deny an attempt to access your account.
-
-    **Note:** Only teammate admins may delete a teammate's access request.
+- name: SendGrid Patch Scopes Requests Request  Approve
+  description: "This endpoint allows you to approve an access attempt.\n\n**Note:**
+    Only teammate admins may approve another teammate\u2019s access request."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Scopes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/scopes/master/_listings/sendgrid/scopes-requests-request-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/scopes/master/_listings/sendgrid/scopes-requests-request-id-approve-patch.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/scopes/master/_listings/sendgrid/scopes-requests-request-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/scopes/master/_listings/sendgrid/scopes-requests-request-id-approve-patch-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
